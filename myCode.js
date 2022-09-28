@@ -14,10 +14,6 @@ function division(a,b){
   return a/b;
 }
 
-function print(operation, a, b) {
-  console.log(operation(a, b));
-}
-
-print(multiplication, 4, 4);
-print(mystere, 2, 4);
-print(addition, 3, 4);
+console.log(multiplication(4, 4));
+console.log(mystere(2, 4));
+console.log(addition(3, 4));
